@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="in_china">China\'s</string>
+    <string name="beautiful_scenery">Beautiful Scenery</string>
+    <string name="panda_base">Cheng Du Research Base of Giant Panda Breeding</string>
+    <string name="panda_address">Axes Hill, Northern suburb of Chengdu</string>
+    <string name="panda_phone">028 83510033</string>
+    <string name="panda_price">￥ 60</string>
+    <string name="gurung">Gurung</string>
+    <string name="gurung_address">About 20 miles in the west of xiangyang</string>
+    <string name="gurung_phone">0710 3592364</string>
+    <string name="gurung_price">￥ 63</string>
+    <string name="sanyou_cave">The Sanyou cave</string>
+    <string name="sanyou_address">10 miles from Yichang</string>
+    <string name="sanyou_phone">0717 8861760</string>
+    <string name="sanyou_price">￥ 148</string>
+    <string name="three_gorges_waterfall">Three Gorges Waterfall</string>
+    <string name="three_gorges_waterfall_address">20 miles from Yichang</string>
+    <string name="three_gorges_waterfall_phone">-</string>
+    <string name="three_gorges_waterfall_price">￥ 50</string>
+    <string name="description">Description</string>
+    <string name="gurung_des">古隆中至今已有1800多年历史。因诸葛亮躬耕陇亩、刘备"三顾茅庐"，引发《隆中对策》，被世人称为智者摇篮，三分天下的策源地。在绵延起伏的山岭间，忽有一山隆然中起，北枕汉水，林泉幽邃，蔚然深秀，这地方便是古隆中。由于三国蜀相诸葛亮曾在此地居住，并且由这里结束隐居生活，出世辅佐刘备成就了一番夺天下的事业，地因人而名，古隆中便成为垂千古、永清幽的胜地，吸引中外无数游人的足迹与眼光。先后有多届国家主席，及众多国家领导人考察襄阳古隆中。"</string>
+    <string name="place_info">Place Info</string>
+    <string name="panda_des">成都大熊猫繁育研究基地位于成都北郊斧头山山侧的浅丘上，建成了科研大楼、开放研究实验室、兽医院、兽舍和熊猫活动场、天鹅湖、大熊猫博物馆、大熊猫医院、大熊猫厨房等，形成竹木苍翠，鸟语花香，集自然山野风光和优美人工景观为一体，适宜大熊猫及多种珍稀野生动物生息繁衍的生态环境。\n大熊猫繁育研究基地是以造园手法模拟大熊猫野外生态环境，绿化覆盖率达96%，营建了适宜大熊猫及多种珍稀野生动物生息繁衍的生态环境。这里常年养着80余只大熊猫以及小熊猫、黑颈鹤、白鹤等珍稀动物。</string>
+    <string name="sanyou_des">三游洞风景区位于西陵峡外，距宜昌10公里左右。三游洞的名字有两个典故，唐代诗人白居易、白行简、元稹三个人曾一同游过此洞，人称"前三游";到宋代，苏洵、苏轼、苏辙父子三人也一同来游过此洞，人称为"后三游"。\n三游洞风景区内主要景点有三游洞、至喜亭、楚塞楼、古军垒遗址、张飞擂鼓台、陆游泉等。</string>
+    <string name="three_gorges_des">三峡大瀑布(原名:白果树瀑布)景区位于晓峰旅游景区中，占地6000多亩，以天然瀑布群和峡谷丛林风光闻名，是集迷人风光、民俗文化、水上娱乐、旅行探险等多种休闲功能于一体的神奇峡谷。\n峡谷内植物覆盖率达90%以上，空气新鲜，幽幽峡谷绵延10公里。白果树瀑布以瀑高、景秀、山险、水清见长。开发景观有神女观瀑、纸糊洞、藏经洞、水帘洞、乌龟笑天、金钓桥、饮马岩、四不像、巴人戊洞、野人谷、巴人文字、长桥超渡、佛楠叶、白果树主瀑、珍珠瀑、仙女瀑、古龙潭、仙女潭、泰山大佛，千年鱼化石等20多个自然景观。新扩建的泰山大佛，座北朝南，卧身高70米，宽40米，形象逼真，气势恢宏。\n三峡大瀑布是国家AAAA级旅游景区，被誉为"中国十大名瀑"的三峡大瀑布，是展示震旦纪、奥陶纪、寒武纪等多个地质年代的天然地质博物馆，也是世界上少有的集峡谷、溶洞、山水、化石文化为一体的国家级地质公园。</string>
+
+</resources>

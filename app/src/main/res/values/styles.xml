@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+    </style>
+
+    <style name="tv_item_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dp_16</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/colorTextIcon</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_marginBottom">@dimen/dp_4</item>
+    </style>
+    <style name="tv_item_subtitle_style" parent="tv_item_title_style">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:layout_marginTop">@dimen/dp_4</item>
+    </style>
+    <style name="tv_item_fragment_subtitle_style" parent="tv_item_subtitle_style">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="tv_fragmen_subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:paddingTop">@dimen/dp_8</item>
+        <item name="android:paddingLeft">@dimen/dp_8</item>
+        <item name="android:paddingRight">@dimen/dp_8</item>
+    </style>
+
+    <style name="tx_divider_for_subtitle">
+        <item name="android:background">@color/colorSecondaryText</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/dp_4</item>
+        <item name="android:layout_marginRight">@dimen/dp_4</item>
+        <item name="android:layout_height">@dimen/dp_1</item>
+    </style>
+
+</resources>

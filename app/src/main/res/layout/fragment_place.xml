@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_place_picture"
+            android:src="@drawable/blue"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/description"
+            style="@style/tv_fragmen_subtitle"/>
+        <View
+            style="@style/tx_divider_for_subtitle"/>
+        <TextView
+            android:text="@string/gurung_des"
+            android:padding="@dimen/dp_16"
+            android:id="@+id/tv_des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            style="@style/tv_fragmen_subtitle"
+            android:text="@string/place_info"/>
+        <View
+            style="@style/tx_divider_for_subtitle"/>
+        <ImageView
+            android:id="@+id/iv_place_location"
+            android:src="@drawable/blue"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/dp_16"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_240"/>
+        <TextView
+            style="@style/tv_item_fragment_subtitle_style"
+            tools:text="@string/app_name"
+            android:drawableLeft="@drawable/ic_address"
+            android:id="@+id/tv_address_fragment"/>
+        <TextView
+            style="@style/tv_item_fragment_subtitle_style"
+            android:drawableLeft="@drawable/ic_phone"
+            android:id="@+id/tv_phone_fragment"/>
+        <TextView
+            style="@style/tv_item_fragment_subtitle_style"
+            android:drawableLeft="@drawable/ic_payment"
+            android:id="@+id/tv_price_fragment"
+            />
+    </LinearLayout>
+</ScrollView>
+

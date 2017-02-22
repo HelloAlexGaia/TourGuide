@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDivider"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/dp_8"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_240"
+        tools:src="@drawable/research_base_of_panda"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_place_photo"
+        />
+    <TextView
+        tools:text="@string/panda_base"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold"
+        android:id="@+id/tx_name"
+        android:layout_marginTop="@dimen/dp_16"
+        style="@style/tv_item_title_style"/>
+
+    <TextView
+        android:gravity="center"
+        style="@style/tv_item_subtitle_style"
+        tools:text="@string/app_name"
+        android:drawableLeft="@drawable/ic_address"
+        android:id="@+id/tv_address"/>
+    <TextView
+        style="@style/tv_item_subtitle_style"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_phone"
+        android:id="@+id/tv_phone"/>
+    <TextView
+        android:gravity="center"
+        style="@style/tv_item_subtitle_style"
+        android:drawableLeft="@drawable/ic_payment"
+        android:id="@+id/tv_price"
+        />
+
+</LinearLayout>
