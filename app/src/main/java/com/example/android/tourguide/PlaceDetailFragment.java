@@ -22,23 +22,28 @@ public class PlaceDetailFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_place,container,false);
+
         int mPositon=getArguments().getInt(PLACE);
         PlaceInfo placeInfo=PlaceInfoLabs.getInstance(getActivity()).getPlaceInfos().get(mPositon);
+
         TextView tvAddress= (TextView) view.findViewById(R.id.tv_address_fragment);
         TextView tvPhone= (TextView) view.findViewById(R.id.tv_phone_fragment);
         TextView tvPrice= (TextView) view.findViewById(R.id.tv_price_fragment);
+        TextView textView= (TextView) view.findViewById(R.id.tv_des);
+
         tvAddress.setText(placeInfo.getAddressId());
         tvPhone.setText(placeInfo.getPhoneId());
         tvPrice.setText(placeInfo.getPriceId());
+        textView.setText(placeInfo.getDesId());
+
         RecyclerView recyclerView= (RecyclerView) view.findViewById(R.id.rv_place_picture);
         LinearLayoutManager linearLayoutManager=new LinearLayoutManager(getContext(),LinearLayoutManager.HORIZONTAL,false);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(new FragmentAdapter(placeInfo));
+
         ImageView imageView= (ImageView) view.findViewById(R.id.iv_place_location);
         int size=placeInfo.getImages().size()-1;
         imageView.setImageResource(placeInfo.getImages().get(size));
-        TextView textView= (TextView) view.findViewById(R.id.tv_des);
-        textView.setText(placeInfo.getDesId());
         return view;
     }
 
